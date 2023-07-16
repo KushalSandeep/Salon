@@ -6,11 +6,9 @@ https://salonsh.000webhostapp.com/
 <h1>
 <b>Login Credentials</b>
 </h1>
-<br>
 <h4>
 User
-  </h4>
-<br>
+</h4>
 username : testacc
 <br>
 password : testacc
