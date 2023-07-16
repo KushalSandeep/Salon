@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+body {
+  background-image: url("./images/wall1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#lg1 {
+  margin-bottom: 2vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5vw;
+  font-weight: 600;
+  color: rgb(8, 8, 8);
+  font-family: "Poppins", "sans-serif";
+}
+
+#lg2 {
+  margin-top: 10vw;
+  height: 30vw;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Poppins", "sans-serif";
+  border-radius: 10px;
+}
+
+#lg21 {
+  height: 3vw;
+  width: 98%;
+  padding-left: 1vw;
+  display: flex;
+}
+
+#lg211:hover {
+  cursor: pointer;
+}
+
+#lg22 {
+  height: 70%;
+  width: 98%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.lg221 {
+  width: 40%;
+  height: 4.5vw;
+  background-color: #7d2ae8;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.4vh;
+  color: white;
+  font-family: "Poppins", "sans-serif";
+  border: none;
+  margin-bottom: 1vw;
+}
+
+.lg221:hover {
+  background-color: rgb(137, 135, 135);
+  cursor: pointer;
+}
+
+.txtfld {
+  width: 80%;
+  height: 18%;
+  font-size: 1vw;
+  letter-spacing: 0.2vh;
+}
+.txtnm {
+  font-size: 1.2vw;
+  letter-spacing: 0.5vh;
+  font-family: "Poppins", "sans-serif";
+}

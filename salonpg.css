@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", "sans-serif";
+}
+#dash {
+  height: 15vh;
+  width: 100vw;
+  background-color: #7d2ae8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+#dash2 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ds1 {
+  height: 100%;
+  width: 10%;
+}
+#ds1 a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ds2 {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  font-weight: 600;
+}
+#ds3 {
+  height: 30%;
+  width: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2vw;
+}
+
+#img1:hover {
+  cursor: pointer;
+}
+#img2:hover {
+  cursor: pointer;
+}
+
+#ds3:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 4.8vw;
+  right: 2.6vw;
+}
+
+.dropdown-content a {
+  color: #7d2ae8;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.1vw;
+  font-weight: 600;
+  font-family: "Poppins", "sans-serif";
+}
+
+.dropdown-content a:hover {
+  background-color: #d6afee;
+}
+
+#dbd {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.details {
+  width: 42%;
+  height: 90%;
+  background-color: #ebdfe9;
+  border-radius: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+#topic {
+  font-size: 2.2vw;
+}
+
+#data {
+  font-size: 1.2vw;
+}
+
+#set {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+#set2 {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+#btnn {
+  width: 9vw;
+  height: 3vw;
+  font-size: 1.4vw;
+  font-weight: 600;
+  background-color: #7d2ae8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+  color: white;
+  font-family: "Poppins", "sans-serif";
+  margin-left: 45vw;
+  border: none;
+}
+#btnn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#card {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 6vw;
+  left: 12vw;
+  margin: 1vw;
+  width: 70vw;
+  height: 35vw;
+  border: 0.1vw solid rgb(99, 99, 99);
+  background-color: #ebdfe9;
+  font-family: "Poppins", "sans-serif";
+  font-style: normal;
+}
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 33px;
+  width: 2px;
+  background-color: #e40000;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.con1 {
+  width: 40vw;
+  display: flex;
+  font-size: 1.5vw;
+  margin: 1vw;
+  justify-content: space-evenly;
+}
+
+#lnd {
+  width: 25vw;
+  height: 2.5vw;
+  border-radius: 1vw;
+  font-size: 1vw;
+  padding-left: 1vw;
+}
+
+#lnd3 {
+  width: 20vw;
+  height: 2.5vw;
+  border-radius: 1vw;
+  font-size: 1vw;
+  padding-left: 1vw;
+}
+
+#lnd4 {
+  width: 25vw;
+  height: 2.5vw;
+  border-radius: 1vw;
+  font-size: 1vw;
+  padding-left: 1vw;
+}
+
+#lnd2 {
+  width: 8vw;
+  height: 2.5vw;
+  border-radius: 1vw;
+  font-size: 1vw;
+  padding-left: 1vw;
+}
+
+#hahah {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#btn2 {
+  font-family: "Poppins", "sans-serif";
+  font-style: normal;
+  width: 6vw;
+  height: 2.5vw;
+  font-size: 1.5vw;
+  border: 0.2vw solid black;
+  border-radius: 1vw;
+}
+#btn2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
