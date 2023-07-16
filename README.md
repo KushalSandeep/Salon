@@ -12,3 +12,9 @@ User
 username : testacc
 <br>
 password : testacc
+
+Salon
+</h2>
+username : testsal
+<br>
+password : testsal
