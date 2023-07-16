@@ -1,3 +1,3 @@
 # Salon
 Link
-https://kushalsandeep.github.io/Salon/
+(https://salonsh.000webhostapp.com/)https://salonsh.000webhostapp.com/
